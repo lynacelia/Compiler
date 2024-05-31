@@ -1,0 +1,35 @@
+VAR_GLOBAL{
+	  %%Declaration d une variable simple 
+	  INTEGER V;
+}
+DECLARATION{
+	  FLOAT : Tab1[5],Tab2[5] ;
+	  INTEGER : Tab3[5] ;
+	  CONST F = (-3.7);
+	  INTEGER Z,V,B;
+	  FLOAT I;
+	  FLOAT W,A;
+
+}
+ 	  INSTRUCTION{  
+	         L = 1;
+			 B = 10.5;
+             IF((A == 3.0)){	  
+			   FOR(A:3:100:B){
+				  W = ((2*10)+(1+(-8))) / (20-10) ;
+				  V = 5;
+				  Tab1[L] = W;
+				
+			  }
+			 }ELSE{ FOR(I:3:A:((W*10)+1)){
+				         B =  ((2*10)-(-2)) + W;
+	
+			            }
+			      }
+				  
+			 WHILE((L == 1)){
+				  L = 2;
+				  
+				  Tab1[2] = A;
+			 }
+		  }

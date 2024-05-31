@@ -1,0 +1,43 @@
+VAR_GLOBAL {
+    FLOAT count,y;
+    FLOAT v;
+}
+
+DECLARATION {
+    INTEGER x,n;
+    FLOAT: T[10] ;
+    FLOAT z,i,C,B,W;   
+}
+
+INSTRUCTION {
+
+    %% DEBUT DU PROGRAMME
+
+    WRITE("donner la valeur de z ");
+
+    count = 0.5;
+    x = 5;
+    y = x * 2;
+    
+    WHILE (((count < 5) || (y>8))) { 
+        count = count + x;
+    }
+
+    FOR(i:0:1:n){
+        T[i] =i*C;
+        B =  ((2*10)-(-2)) + W;
+    }
+    
+    READ(z); 
+
+    IF ((z < y)) {
+        z=z+1;
+    }
+    ELSE {
+       y=y+1;
+    }
+
+   
+
+    %% PROGRAMME TERMINE 
+}
